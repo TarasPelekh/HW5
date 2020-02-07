@@ -1,0 +1,49 @@
+
+body {
+    background-color: rgb(18, 17, 22);
+    text-align: center;
+}
+
+
+
+.main {
+    background-image: url(images/fon.png);
+    width: 1170px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.logo {
+margin-left: auto;
+margin-right: auto;
+}
+
+h1{
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.blue {
+    color: blue;
+}
+.mid{
+    
+    display: inline-block;
+}
+
+.container {
+    display: inline-block;
+    }
+
+.pic {
+    width: 50px;
+}
