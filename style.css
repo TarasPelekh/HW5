@@ -2,12 +2,14 @@
 body {
     background-color: rgb(18, 17, 22);
     text-align: center;
+    background-image: url(images/fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
 
 .main {
-    background-image: url(images/fon.png);
     width: 1170px;
     height: 400px;
     margin-left: auto;
@@ -15,7 +17,15 @@ body {
     position: relative;
 }
 
+.container {
+    margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+width: 240px;
+}
+
 .logo {
+    margin-top: 120px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -24,6 +34,7 @@ h1{
     color: white;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
 }
 
 p {
@@ -33,17 +44,20 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .blue {
-    color: blue;
-}
-.mid{
-    
-    display: inline-block;
+    color: rgb(25, 200, 250);
 }
 
-.container {
+.copyright {
+    margin-top: 80px;
     display: inline-block;
-    }
+
+}
+
+.mid {
+    margin-top: 40px;
+}
 
 .pic {
+    display: inline-block;
     width: 50px;
 }
